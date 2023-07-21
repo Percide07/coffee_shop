@@ -10,16 +10,40 @@
         <img src="asset/coffe.jpg" alt="logo tasse de café">
         <h1>Coffee Master</h1>
         <div>
-            <p>Items</p><br>
+            <h2>ITEMS</h2><br>
             <pre>1x  Cappucino         $3.35</pre>
+            <pre>    Lite foam         </pre>
             <pre>1x  Cappucino         $3.85</pre>
+            <pre>    Lite milk         </pre>
+            <pre>    Double espresso         </pre>
             <pre>1x  Croissant         $2.45</pre>
+            <pre>    Butter         </pre>
         </div>
         <div>
-
+            <h2>NAME</h2>
+            <fieldset>
+                <legend>Name for order</legend>
+                <label for="order"></label>
+                <input type="text" placeholder="Ford Perfect">
+            </fieldset>
         </div>
         <div>
-
+            <h2>PAYMENT</h2>
+            <fieldset>
+                <legend>Card Number</legend>
+                <label for="card"><label>
+                <input type="number" placeholder="1234 5678 9012 3456">
+            </fieldset>
+            <fieldset>
+                <legend>CCV Number</legend>
+                <label for="CCV"></label>
+                <input type="number" placeholder="001">
+            </fieldset>
+        </div>
+        <div>
+            <pre>Subtotal:             $9.65</pre>
+            <pre>Tax:                  $0.82</pre>
+            <pre>Total:               $10.47</pre>
         </div>
         <button type="submit">Place order</button>
     </main>
