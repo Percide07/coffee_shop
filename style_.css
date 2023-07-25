@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.navbar {
+    display: flex;
+    align-items : center;
+    background-color: #43281c;
+    justify-content: center;
+    margin: 5px;
+}
+
+.navbar img {
+    width: 27px;
+    height: 27px;
+    margin-right: 6px;
+}
