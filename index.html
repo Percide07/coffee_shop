@@ -13,54 +13,56 @@
             <img src="asset/coffee_masters_logo.png" alt="logo coffee">
             <h1>Coffee Master</h1>
         </nav>
-        
-        <section class="box1">
-            <h2>ITEMS</h2><br>
-            <div>
-                <pre>1x  Cappucino         $3.35</pre>
-                <pre>    Lite foam         </pre>
-            </div>
-            <div>
-                <pre>1x  Cappucino         $3.85</pre>
-                <pre>    Lite milk         </pre>
-            </div>
-            <div>
-                <pre>    Double espresso         </pre>
-                <pre>1x  Croissant         $2.45</pre>
-                <pre>    Butter         </pre>
-            </div>
+        <section class="layout_1">
+
+            <section class="box1">
+                <h2>ITEMS</h2><br>
+                <div>
+                    <pre>1x  Cappucino         $3.35</pre>
+                    <pre>    Lite foam         </pre>
+                </div>
+                <div>
+                    <pre>1x  Cappucino         $3.85</pre>
+                    <pre>    Lite milk         </pre>
+                </div>
+                <div>
+                    <pre>    Double espresso         </pre>
+                    <pre>1x  Croissant         $2.45</pre>
+                    <pre>    Butter         </pre>
+                </div>
+            </section>
+            <section class="box_payment">
+
+                <div class="box2">
+                    <h2>NAME</h2><br>
+                    <fieldset>
+                        <legend>Name for order</legend>               
+                        <label for="order"></label>
+                        <input type="text" placeholder="Ford Perfect">
+                    </fieldset>
+                </div>
+                <div class="box3"> 
+                    <h2>PAYMENT</h2>
+                    <fieldset>
+                        <legend>Card Number</legend>
+                        <label for="card"><label>
+                        <input type="text" placeholder="1234 5678 9012 3456" class="input-card">
+                        </fieldset>
+                        <fieldset>
+                            <legend>CCV Number</legend>
+                            <label for="CCV"></label>
+                            <input type="text" placeholder="001" class="input-card">
+                        </fieldset>
+                    </div>
+            </section>
+                
         </section>
-        <section class="box_payment">
-
-            <div class="box2">
-                <h2>NAME</h2><br>
-                <fieldset>
-                    <legend>Name for order</legend>               
-                    <label for="order"></label>
-                    <input type="text" placeholder="Ford Perfect">
-                </fieldset>
-            </div>
-            <div class="box3"> 
-                <h2>PAYMENT</h2>
-                <fieldset>
-                    <legend>Card Number</legend>
-                    <label for="card"><label>
-                    <input type="number" placeholder="1234 5678 9012 3456">
-                </fieldset>
-                <fieldset>
-                    <legend>CCV Number</legend>
-                    <label for="CCV"></label>
-                    <input type="number" placeholder="001">
-                </fieldset>
-            </div>
-        </section>
-
-        <section>
-
-            <div class="box4">
-                <pre>Subtotal:             $9.65</pre>
-                <pre>Tax:                  $0.82</pre>
-                <pre>Total:                $10.47</pre>
+        <section class="box4">
+                
+            <div>
+            <pre>Subtotal:             $9.65</pre>
+            <pre>Tax:                  $0.82</pre>
+            <pre>Total:                $10.47</pre>
             </div>
             <button type="submit">Place order</button>
         
