@@ -16,7 +16,7 @@
         <section class="layout_1">
 
             <section class="box1">
-                <h2>ITEMS</h2><br>
+                <h2 class="word-color">ITEMS</h2><br>
                 <div>
                     <pre>1x  Cappucino         $3.35</pre>
                     <pre>    Lite foam         </pre>
@@ -34,22 +34,22 @@
             <section class="box_payment">
 
                 <div class="box2">
-                    <h2>NAME</h2><br>
-                    <fieldset>
-                        <legend>Name for order</legend>               
+                    <h2 class="word-color">NAME</h2><br>
+                    <fieldset class="input-fieldset">
+                        <legend class="word-color">Name for order</legend>               
                         <label for="order"></label>
-                        <input type="text" placeholder="Ford Perfect">
+                        <input type="text" placeholder="Ford Perfect" class="input-card">
                     </fieldset>
                 </div>
                 <div class="box3"> 
-                    <h2>PAYMENT</h2>
-                    <fieldset>
-                        <legend>Card Number</legend>
+                    <h2 class="word-color">PAYMENT</h2>
+                    <fieldset class="input-fieldset">
+                        <legend class="word-color">Card Number</legend>
                         <label for="card"><label>
                         <input type="text" placeholder="1234 5678 9012 3456" class="input-card">
                         </fieldset>
-                        <fieldset>
-                            <legend>CCV Number</legend>
+                        <fieldset class="input-fieldset" id="ccv-width">
+                            <legend class="word-color">CCV Number</legend>
                             <label for="CCV"></label>
                             <input type="text" placeholder="001" class="input-card">
                         </fieldset>
@@ -64,7 +64,7 @@
             <pre>Tax:                  $0.82</pre>
             <pre>Total:                $10.47</pre>
             </div>
-            <button type="submit">Place order</button>
+            <button type="submit" class="button-color">Place order</button>
         
         </section>
     </main>

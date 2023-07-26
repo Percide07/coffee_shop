@@ -30,43 +30,73 @@ body {
     color: #f8efc0;
 }
 .box1 {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 500px;
     background-color: #eee1d5;
+    border-radius: 5px;
+    box-shadow: 2px 3px 2px 2px rgb(205, 203, 203);
 }
 .layout_1 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border: 2px solid black;
-    margin: 10px
+    /* border: 2px solid black; */
+    margin: 10px;
 }
 .box_payment {
     display: flex;
     flex-direction: column;
     width: 560px;
-    border: 2px solid black;    
+    border: 2px solid black;   
+    justify-content: space-around; 
 
 }
 .box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     background-color: #eee1d5;
+    border-radius: 5px;
+    /* border: 2px solid black; */
+    /* padding: 8px; */
+    padding-bottom: 20px;
+    box-shadow: 2px 3px 2px 2px rgb(205, 203, 203)
 }
 .box3 {
     background-color: #eee1d5;
+    border-radius: 5px;
+    /* border: 2px solid black; */
+    padding: 8px;
+    box-shadow: 2px 3px 2px 2px rgb(205, 203, 203)
 }
 
 .box4 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin-top: 100px;
 }
 
 button {
     background-color: #deb993;
-    width: 800px;
+    width: 850px;
+    color: #4f5137;
+    border-radius: 100px;
 }
 .input-card {
-    border-radius: 100px
+    border-radius: 100px;
+    background-color: #eee1d5;
+    height: 30px;
+    border: none;
+    outline: none;
+}
+.input-fieldset {
+    border-radius: 100px;
+}
+#ccv-width {
+    width: 30px;
+}
+.word-color {
+    color: #a07a56;
 }
